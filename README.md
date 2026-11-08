@@ -1,67 +1,196 @@
-<img src="https://github.com/AnimacX/AnimacX/assets/55338151/d1b7a496-5426-46b3-9166-81faf2a5a83a" align="center" />
+﻿<img src="https://github.com/AnimacX/AnimacX/assets/55338151/d1b7a496-5426-46b3-9166-81faf2a5a83a" align="center" />
 <p align="right">Icon by <a href="https://www.icons8.com">icons8</a></p>
 
 ![GitHub Release](https://img.shields.io/github/v/release/animacx/animacx?include_prereleases&style=for-the-badge)
+![Github Download](https://img.shields.io/github/downloads/animacx/animacx/total?style=for-the-badge&label=github%20downloads)
 
 
 # AnimacX - Anime for mac
 
->（弹弹Play MacOS版）一款可以追番的弹幕视频播放器
+一款可以追番的弹幕视频播放器
 
-<a href="https://afdian.net/a/animacx"><img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a>
+<a href="https://afdian.com/a/animacx"><img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a>
 
-(在爱发电赞助的用户，可以下载具有最新功能的测试版）
+[🚀 下载最新版本](https://www.anix.app)
 
-🚀 在Release中浏览最新发布的版本以及更新信息或[直接下载最新版本](https://animacx.pressed.top/api/v1/release/download/latest?s=github.com)
+[立即加入 TestFlight](https://testflight.apple.com/join/zCpAVFFj)
 
 ## 应用介绍
 
-*目前仅支持`MacOS 14.0`和`iOS 17.0`以上的系统*
+*目前仅支持`MacOS 14.0` `tvOS 17.0` 和`iOS 17.0`以上的系统，iPad、visonPro、iPhone 共用一个版本*
+
+AnimacX 是一款面向 macOS tvOS 与 iOS 的番剧播放器，将本地播放、在线视频、弹幕互动与追番管理整合到同一个应用里。你可以直接观看本地或网络视频，自动识别番剧并关联弹幕、番剧资讯、Bangumi 条目与个人追番状态，把“找资源、看视频、发弹幕、记进度”串成一条更顺手的追番流程。
+
+围绕“追番”这个核心场景，AnimacX 也提供了更完整的配套能力：支持整理近期未看的番剧并一键加入播放列表，支持在应用内查看 bgm.tv 消息提醒与评论回复，支持 ANI-RSS 私有资源库联动，还可以通过 PikPak、Aria2 下载磁力资源，适合希望把播放、追更、资料和资源管理集中在一起的用户。
+
+[点击查看应用截图](./APP_SCREEN.md)
 
 ### 功能特性
 
-- [x] 弹幕功能：支持手动加载本地弹幕、自动关联云端弹幕、自定义屏蔽
-- [x] 视频功能：支持本地视频、网络视频
-- [x] 番剧识别
-- [x] 发送弹幕
-- [x] 番剧资讯和追番：支持自动关联**部分**在线网络资源
-- [ ] 番剧评论评分同步bangumi
-- [ ] Pikpak离线观看/下载
+- [x] 播放与弹幕：支持本地视频、网络视频、手动加载本地弹幕、自动关联云端弹幕、发送弹幕、支持弹幕互动
+- [x] 弹幕管理：支持自定义屏蔽与 AI 个性化弹幕过滤
+- [x] 番剧识别：自动识别番剧并关联对应信息
+- [x] 追番管理：支持自动整理未看番剧并一键加入播放列表
+- [x] Bangumi 联动：支持评论区关联、消息提醒，以及观看进度和追番状态同步（单向）
+- [x] 资源下载：支持通过 PikPak、Aria2 下载磁力链接
+- [x] 私有资源库：支持 ANI-RSS 私有资源库与网页跳转联动、支持Jellyfin/Emby资源库
+- [x] 自研Metal播放引擎，提供实时分辨率增强，提供实时字幕翻译
 
-### macOS UI界面
+追番神器 [ANI-RSS](https://github.com/wushuo894/ani-rss) 现已支持在网页跳转AnimacX
 
-截图可能来自旧版本、内部赞助版本，最终效果以软件内展示为准
+## 赞助者
 
-#### 播放器
+感谢这些来自爱发电的赞助者：
 
-<img width="1624" alt="截屏2024-04-22 20 41 57" src="https://github.com/AnimacX/AnimacX/assets/55338151/08925129-2626-4e32-a171-a8df01001443">
+<!-- AFDIAN-ACTION:START -->
+<!-- update time: 2026-11-08 16:52:34 -->
 
-#### 番剧资讯
+<a href="https://afdian.com/u/2dd0530a9cc911f1831a5254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/w/120/h/120" width="40" height="40" alt="sevl1bin" title="sevl1bin"/>
+</a>
+<a href="https://afdian.com/u/e63e8296920f11f1984052540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_e63e8" title="爱发电用户_e63e8"/>
+</a>
+<a href="https://afdian.com/u/ca5cbad08f3911f1985c5254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_ca5cb" title="爱发电用户_ca5cb"/>
+</a>
+<a href="https://afdian.com/u/97407e6ad45811edbd995254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-blue.png?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_4w8q" title="爱发电用户_4w8q"/>
+</a>
+<a href="https://afdian.com/u/6d2c4994309811eb8d2d52540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_6d2c4" title="爱发电用户_6d2c4"/>
+</a>
+<a href="https://afdian.com/u/14fed46e827f11f19e805254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_GyBY" title="爱发电用户_GyBY"/>
+</a>
+<a href="https://afdian.com/u/19ea8c4e7bd511f1af215254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_19ea8" title="爱发电用户_19ea8"/>
+</a>
+<a href="https://afdian.com/u/26bb0380c2c111ecb94c52540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_MYns" title="爱发电用户_MYns"/>
+</a>
+<a href="https://afdian.com/u/0380c328df9e11ed9c975254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png?imageView2/1/w/120/h/120" width="40" height="40" alt="xiyu0501" title="xiyu0501"/>
+</a>
+<a href="https://afdian.com/u/75c26b06c87611ed883052540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_aqUK" title="爱发电用户_aqUK"/>
+</a>
+<a href="https://afdian.com/u/d62a08eada2111f0affa52540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_d62a0" title="爱发电用户_d62a0"/>
+</a>
+<a href="https://afdian.com/u/f62b60c872db11eca98852540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_f62b6" title="爱发电用户_f62b6"/>
+</a>
+<a href="https://afdian.com/u/450de2ae91af11edbf8a5254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_EA3K" title="爱发电用户_EA3K"/>
+</a>
+<a href="https://afdian.com/u/a5ca30aa33d111ef949652540025c377">
+<img src="https://pic1.afdiancdn.com/user/a5ca30aa33d111ef949652540025c377/avatar/7b350373ab4e07343c7bad2a03ce9697_w239_h239_s124.png?imageView2/1/w/120/h/120" width="40" height="40" alt="Betasecond" title="Betasecond"/>
+</a>
+<a href="https://afdian.com/u/59a2a852b95311f0be7d52540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_59a2a" title="爱发电用户_59a2a"/>
+</a>
+<a href="https://afdian.com/u/494fb6c4ad7411f0af935254001e7c00">
+<img src="https://pic1.afdiancdn.com/user/494fb6c4ad7411f0af935254001e7c00/avatar/de951c1d7476c0a5e8ca2bbd26840ed1_w1080_h2347_s1043.png?imageView2/1/w/120/h/120" width="40" height="40" alt="huanyin123" title="huanyin123"/>
+</a>
+<a href="https://afdian.com/u/a41850a4012f11efb46d52540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png?imageView2/1/w/120/h/120" width="40" height="40" alt="白球" title="白球"/>
+</a>
+<a href="https://afdian.com/u/3fcc6bfa9a5611f09cda52540025c377">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_3fcc6" title="爱发电用户_3fcc6"/>
+</a>
+<a href="https://afdian.com/u/ae51632c97b711eda0db5254001e7c00">
+<img src="https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/?imageView2/1/w/120/h/120" width="40" height="40" alt="爱发电用户_ae516" title="爱发电用户_ae516"/>
+</a>
+<a href="https://afdian.com/u/1d0c0de6d0d111eebcfd52540025c377">
+<img src="https://pic1.afdiancdn.com/user/user_upload_osl/55009e8ad22f453a002e2e5e8854d9d9_w132_h132_s3.jpeg?imageView2/1/w/120/h/120" width="40" height="40" alt="宅男otaku \curious" title="宅男otaku \curious"/>
+</a>
 
-<img width="1498" alt="image" src="https://github.com/AnimacX/AnimacX/assets/55338151/fbdb6cbd-a86e-42e9-995f-73ce3878c35e">
+<details>
+<summary>赞助者列表</summary>
 
-<img width="1513" alt="截屏2024-06-08 12 23 04" src="https://github.com/AnimacX/AnimacX/assets/55338151/99fabeb7-d3bd-451a-8728-84cdf677ca7e">
+<a href="https://afdian.com/u/2dd0530a9cc911f1831a5254001e7c00">
+sevl1bin
+</a>
+<span>( 2 次赞助 )</span><br>
+<a href="https://afdian.com/u/e63e8296920f11f1984052540025c377">
+爱发电用户_e63e8
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/ca5cbad08f3911f1985c5254001e7c00">
+爱发电用户_ca5cb
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/97407e6ad45811edbd995254001e7c00">
+爱发电用户_4w8q
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/6d2c4994309811eb8d2d52540025c377">
+爱发电用户_6d2c4
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/14fed46e827f11f19e805254001e7c00">
+爱发电用户_GyBY
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/19ea8c4e7bd511f1af215254001e7c00">
+爱发电用户_19ea8
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/26bb0380c2c111ecb94c52540025c377">
+爱发电用户_MYns
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/0380c328df9e11ed9c975254001e7c00">
+xiyu0501
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/75c26b06c87611ed883052540025c377">
+爱发电用户_aqUK
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/d62a08eada2111f0affa52540025c377">
+爱发电用户_d62a0
+</a>
+<span>( 2 次赞助 )</span><br>
+<a href="https://afdian.com/u/f62b60c872db11eca98852540025c377">
+爱发电用户_f62b6
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/450de2ae91af11edbf8a5254001e7c00">
+爱发电用户_EA3K
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/a5ca30aa33d111ef949652540025c377">
+Betasecond
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/59a2a852b95311f0be7d52540025c377">
+爱发电用户_59a2a
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/494fb6c4ad7411f0af935254001e7c00">
+huanyin123
+</a>
+<span>( 2 次赞助 )</span><br>
+<a href="https://afdian.com/u/a41850a4012f11efb46d52540025c377">
+白球
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/3fcc6bfa9a5611f09cda52540025c377">
+爱发电用户_3fcc6
+</a>
+<span>( 1 次赞助 )</span><br>
+<a href="https://afdian.com/u/ae51632c97b711eda0db5254001e7c00">
+爱发电用户_ae516
+</a>
+<span>( 2 次赞助 )</span><br>
+<a href="https://afdian.com/u/1d0c0de6d0d111eebcfd52540025c377">
+宅男otaku \curious
+</a>
+<span>( 1 次赞助 )</span><br>
 
-#### 个人资料
+</details>
 
-<img width="1331" alt="截屏2024-04-12 23 31 10" src="https://github.com/AnimacX/AnimacX/assets/55338151/9514b77f-344b-4c2f-9d0c-8be2510ae784">
-
-### iOS UI界面
-
-#### 播放器
-
-<img width="600" alt="Simulator Screenshot - iPhone 15 Pro - 2024-03-11 at 21 30 56" src="https://github.com/AnimacX/AnimacX/assets/55338151/45b60285-18bb-4b26-8446-0b8b92aadd7a">
-
-#### 其他界面
-
-<img width="240" alt="0" src="https://github.com/AnimacX/AnimacX/assets/55338151/ce5684f4-3e1b-4a06-bc6b-d9a9f99c20eb">
-
-<img width="240" alt="1" src="https://github.com/AnimacX/AnimacX/assets/55338151/21f083f0-3994-4ac0-9529-dd7ef5e055c2">
-
-<img width="240" alt="2" src="https://github.com/AnimacX/AnimacX/assets/55338151/218af06e-ed27-446d-bd60-2e7671ff413e">
-
-<img width="240" alt="3" src="https://github.com/AnimacX/AnimacX/assets/55338151/e00d9b7a-95ce-42ee-952e-2a0736342c30">
-
-
-
+<!-- AFDIAN-ACTION:END -->
 
